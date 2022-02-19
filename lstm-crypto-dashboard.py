@@ -22,7 +22,7 @@ dropdown = st.selectbox('Pick your asset here ', tickers)
 dropdownAgainst = st.selectbox('Pick your against asset here ', tickers2)
 
 # Allowing user to pick the date from a dropdown selection
-startx = st.date_input('Start', value=pd.to_datetime('2020-01-01'))
+startx = st.date_input('Start', value=pd.to_datetime('2021-01-01'))
 endx = st.date_input('End', value=pd.to_datetime('today'))
 
 # Letting the user go as far back as 01/01/2016
