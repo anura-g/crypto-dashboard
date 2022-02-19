@@ -172,8 +172,7 @@ dataset = pd.DataFrame()
 
 dataset['actual prices'] = df_actual
 dataset['predicted prices'] = df_predicted
-#df_actual = df_actual.append([[] for _ in range(future_day)], ignore_index=True)#actual data appended as much as future days
-#dataset['predicted prices'] = dataset['predicted prices'].shift(future_day)
+
 
 # change index to date
 idx = pd.date_range(startx, periods=len(dataset.index), freq='D')
